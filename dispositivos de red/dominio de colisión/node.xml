@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Dominio de colisión</string>
+  <key>nodeid</key><string>f1d478e6-d01b-4b1b-9f2f-0a4e50117376</string>
+  <key>modified_time</key><integer>1633120634</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1633120409</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>2</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

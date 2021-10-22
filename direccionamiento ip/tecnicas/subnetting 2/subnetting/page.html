@@ -1,0 +1,42 @@
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Subnetting</title>
+</head><body><img src="image.png"/><br/>
+<span style="font-size: 20pt">Jamas cambia en el numero de elementos.<br/>
+<br/>
+Idea:<br/>
+Como le hacemos <br/>
+<img src="image 2.png"/><br/>
+<br/>
+Consideraciones de diseño:<br/>
+Numero de subredes: ¿Cuantas redes necesito o cuantas redes quiero formar?<br/>
+Tamaño de subredes: ¿Cuantas computadoras quiero conectar por subred?<br/>
+<br/>
+Cual es el tipo de empresa y caracter<br/>
+<br/>
+<br/>
+<br/>
+<img src="image 3.png"/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+Secreto de VLSM<br/>
+<br/>
+<img src="image 4.png"/><br/>
+Si quiero un grupo de 4 y un grupo de 8, no hay elementos que nos agrupen con 4 bits. Lo qye hay que hacer es jalar el bloque <br/>
+<br/>
+<img src="image 5.png"/><br/>
+Se cambian de posicion los bloques para combatir la discontinuidad<br/>
+<br/>
+111 -&gt; 1000<br/>
+Esta transicion es importante, se ponen de mayor a menor para que la discontinuidad que se de de manera correcta:<br/>
+</span><img src="image 6.png"/><span style="font-size: 20pt"><br/>
+</span><span style="font-size: 20pt">Nota que las transiciones:<br/>
+000 -&gt; 100<br/>
+111 -&gt; 1000<br/>
+Notese que la transicion es correcta. Es por esto por lo que las redes en vlcm se ordenan de menor a mayor con respecto al numero de host que cada grupo de debe tener.<br/>
+Por que son grupos <br/>
+Por que incluyen la direccion de red desde el inicio hasta el final.<br/>
+</span></body></html>

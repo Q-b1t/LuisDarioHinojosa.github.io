@@ -1,0 +1,211 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<style>
+.node
+{
+    padding-left: 20px;
+    display: block;
+}
+
+.node_collapsed
+{
+    padding-left: 20px;
+    display: none;
+
+    
+    visibility: hidden;
+    display: none;
+}
+
+
+
+a:active
+{
+text-decoration:none;
+color: #0000FF;
+font-weight: bold;
+}
+
+a:visited
+{
+text-decoration:none;
+color: #000;
+font-weight: bold;
+}
+
+a:link
+{
+text-decoration:none;
+color: #000;
+font-weight: bold;
+}
+
+a:hover
+{
+text-decoration: underline;
+color: #500;
+font-weight: bold;
+}
+
+</style>
+
+
+<script language="javascript">
+  
+    var displayStates = [];
+
+    function showDiv(div)
+    {    
+        div.style.height     = "";
+        div.style.display    = "block";
+        div.style.visibility = "visible";
+    }
+
+    function hideDiv(div)
+    {
+        div.style.height     = "0px";
+        div.style.display    = "none";      
+        div.style.visibility = "hidden";
+    }
+
+    function toggleDiv(div, defaultState)
+    {
+
+        // set default on first use
+        if (displayStates[div] == undefined)
+            displayStates[div] = defaultState;
+
+        // toggle state
+        displayStates[div] = !displayStates[div];       
+
+        // hide / show
+        if (displayStates[div])
+            showDiv(div);
+        else {
+            hideDiv(div);
+        }
+    }
+
+    function toggleDivName(divname, defaultState)
+    {
+        toggleDiv(document.getElementById(divname), defaultState);
+    }
+
+</script>
+
+<nobr><tt><a href='javascript: toggleDivName("a89fe610-b56a-4903-b6de-8779c7ba71bf", true)'>+</a>&nbsp;</tt>Implementacion de Redes Seguras</nobr><br/>
+<div id='a89fe610-b56a-4903-b6de-8779c7ba71bf' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='glosario%20de%20redes/page.html' target='viewer'>Glosario de Redes</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='introduccion/page.html' target='viewer'>Introduccion</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='logica%20combinacional/page.html' target='viewer'>Logica Combinacional</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='importancia%20del%20iot/page.html' target='viewer'>Importancia del IOT</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("e6cd418b-bc27-4266-b303-a97362d90840", false)'>+</a>&nbsp;</tt>Dispositivos de red</nobr><br/>
+<div id='e6cd418b-bc27-4266-b303-a97362d90840' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='dispositivos%20de%20red/repetidor%20%28capa1%29/page.html' target='viewer'>Repetidor (CAPA1)</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='dispositivos%20de%20red/bridge%20%28capa%202%29/page.html' target='viewer'>Bridge (CAPA 2)</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='dispositivos%20de%20red/dominio%20de%20colisi%C3%B3n/page.html' target='viewer'>Dominio de colisión</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='dispositivos%20de%20red/switch/page.html' target='viewer'>Switch</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='dispositivos%20de%20red/router%20%28capa%203%29/page.html' target='viewer'>Router (capa 3)</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='dispositivos%20de%20red/nube/page.html' target='viewer'>Nube</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("6c173b01-af58-40f7-b21c-00c4831b2d8b", true)'>+</a>&nbsp;</tt>Conceptos clave</nobr><br/>
+<div id='6c173b01-af58-40f7-b21c-00c4831b2d8b' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='conceptos%20clave/mac%20adress/page.html' target='viewer'>Mac Adress</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("9a5c4728-f799-4542-9337-135579a5d455", true)'>+</a>&nbsp;</tt>red_conceptos</nobr><br/>
+<div id='9a5c4728-f799-4542-9337-135579a5d455' class='node'><nobr><tt><a href='javascript: toggleDivName("3e4daba3-1996-439b-970b-6499ff3945d4", true)'>+</a>&nbsp;</tt>Diseño de redes</nobr><br/>
+<div id='3e4daba3-1996-439b-970b-6499ff3945d4' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='red_conceptos/dise%C3%B1o%20de%20redes/dise%C3%B1o%20de%20redes%202/page.html' target='viewer'>Diseño de redes</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='red_conceptos/dise%C3%B1o%20de%20redes/jerarquia%20de%20redes/page.html' target='viewer'>Jerarquia de redes</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='red_conceptos/dise%C3%B1o%20de%20redes/estandares%20de%20redes%20%28organizaicones%29/page.html' target='viewer'>Estandares de Redes (Organizaicones)</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("553742b9-6702-4f1d-ba9e-b4364f6e5cd6", false)'>+</a>&nbsp;</tt>Topologia de redes</nobr><br/>
+<div id='553742b9-6702-4f1d-ba9e-b4364f6e5cd6' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='red_conceptos/topologia%20de%20redes/logical-physical%20typology/page.html' target='viewer'>Logical/Physical Typology</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='red_conceptos/topologia%20de%20redes/topologias%20fisicas%20y%20logicas/page.html' target='viewer'>Topologias Fisicas y Logicas</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='red_conceptos/topologia%20de%20redes/tipos%20de%20topologia/page.html' target='viewer'>Tipos de topologia</a></nobr><br/>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='red_conceptos/redes%20indtroduccion/page.html' target='viewer'>REDES Indtroduccion</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='red_conceptos/clasificacion%20de%20redes/page.html' target='viewer'>Clasificacion de redes</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='red_conceptos/elementos%20de%20la%20red/page.html' target='viewer'>Elementos de la red</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='red_conceptos/mac%20address/page.html' target='viewer'>Mac Address</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("8f2d663c-3c7e-4f99-9fc8-b08ab653994c", false)'>+</a>&nbsp;</tt>Internet</nobr><br/>
+<div id='8f2d663c-3c7e-4f99-9fc8-b08ab653994c' class='node_collapsed'><nobr><tt><a href='javascript: toggleDivName("6f3cede6-d692-4fc7-8895-20e3754afe21", true)'>+</a>&nbsp;</tt>DHCP</nobr><br/>
+<div id='6f3cede6-d692-4fc7-8895-20e3754afe21' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='internet/dhcp/dhcp/page.html' target='viewer'>DHCP</a></nobr><br/>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt>Funcionamiento</nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("5e6ad3f3-9c93-4e15-b062-9cb2bb07007e", false)'>+</a>&nbsp;</tt>Modelo TCP/IP</nobr><br/>
+<div id='5e6ad3f3-9c93-4e15-b062-9cb2bb07007e' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='internet/modelo%20tcp-ip/internet/page.html' target='viewer'>Internet</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/modelo%20tcp-ip/capas/page.html' target='viewer'>cAPAS </a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/modelo%20tcp-ip/comunicacion%20tpc-ip/page.html' target='viewer'>Comunicacion TPC/IP</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/modelo%20tcp-ip/connecion%20entre%20redes%20diferentes/page.html' target='viewer'>Connecion entre redes diferentes</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/modelo%20tcp-ip/domain%20name%20server/page.html' target='viewer'>Domain Name Server</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/modelo%20tcp-ip/dominios%20de%20colision%20%28tarea%29/page.html' target='viewer'>Dominios de colision (TAREA)</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("6b809031-3b73-412d-8eea-85c5e4d4d231", true)'>+</a>&nbsp;</tt>OSI</nobr><br/>
+<div id='6b809031-3b73-412d-8eea-85c5e4d4d231' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='internet/osi/osi%20explication/page.html' target='viewer'>OSI EXPLICATION</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/osi/funcionamiento/page.html' target='viewer'>Funcionamiento</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/osi/osi%20vs%20tcpip/page.html' target='viewer'>OSI VS TCPIP</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/osi/encapsulacion/page.html' target='viewer'>Encapsulacion</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/osi/protocolos%20por%20capa/page.html' target='viewer'>protocolos por capa</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("be8a8b08-5591-4852-9f97-eae3cae8eb43", true)'>+</a>&nbsp;</tt>Capas</nobr><br/>
+<div id='be8a8b08-5591-4852-9f97-eae3cae8eb43' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='internet/osi/capas/capa%201/page.html' target='viewer'>Capa 1</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/osi/capas/capa%202%20data%20link%20%28direccionamiento%20fisi/page.html' target='viewer'>Capa 2: Data Link (Direccionamiento Fisico)</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/osi/capas/capa%203%20network%20%28direccionamiento%20logico/page.html' target='viewer'>CAPA 3: Network (Direccionamiento Logico)</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/osi/capas/capa%204%20transporte%20comunicacion%20entre%20no/page.html' target='viewer'>Capa 4: Transporte Comunicacion entre nodos</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/osi/capas/capa%205%20session%20comunicacion%20entre%20aplic/page.html' target='viewer'>cAPA 5: Session Comunicacion entre aplicaciones</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/osi/capas/capa%206%20presentacion/page.html' target='viewer'>Capa 6: Presentacion</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='internet/osi/capas/capa%207%20aplicacion/page.html' target='viewer'>Capa 7: Aplicacion: </a></nobr><br/>
+</div>
+</div>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("9648c2be-28cf-4b59-82e7-de987e563c26", false)'>+</a>&nbsp;</tt>Direccionamiento ip</nobr><br/>
+<div id='9648c2be-28cf-4b59-82e7-de987e563c26' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='direccionamiento%20ip/cheat%20sheet/page.html' target='viewer'>Cheat sheet</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("483d7bd2-8288-40f8-a2ba-bd8cac7c0751", true)'>+</a>&nbsp;</tt>Tecnicas</nobr><br/>
+<div id='483d7bd2-8288-40f8-a2ba-bd8cac7c0751' class='node'><nobr><tt><a href='javascript: toggleDivName("c8fc4fca-9397-41c3-a0c9-28ba10aa7338", true)'>+</a>&nbsp;</tt>VLCM</nobr><br/>
+<div id='c8fc4fca-9397-41c3-a0c9-28ba10aa7338' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='direccionamiento%20ip/tecnicas/vlcm/como%20funciona%20vlsm/page.html' target='viewer'>Como Funciona VLSM</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='direccionamiento%20ip/tecnicas/vlcm/vlcm/page.html' target='viewer'>VLCM</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='direccionamiento%20ip/tecnicas/vlcm/vlcm%20desordenado/page.html' target='viewer'>vlcm desordenado</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("e46cb665-89cd-4554-bc10-ac015f48faaa", true)'>+</a>&nbsp;</tt>Subnetting</nobr><br/>
+<div id='e46cb665-89cd-4554-bc10-ac015f48faaa' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='direccionamiento%20ip/tecnicas/subnetting%202/subnetting/page.html' target='viewer'>Subnetting</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("bcabbc03-f30a-4015-9478-0e57f1239eb3", false)'>+</a>&nbsp;</tt>ipv4</nobr><br/>
+<div id='bcabbc03-f30a-4015-9478-0e57f1239eb3' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='direccionamiento%20ip/tecnicas/subnetting%202/ipv4/prefijo%20de%20red/page.html' target='viewer'>Prefijo de Red</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='direccionamiento%20ip/tecnicas/subnetting%202/ipv4/redes%20privadas/page.html' target='viewer'>Redes Privadas</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='direccionamiento%20ip/tecnicas/subnetting%202/ipv4/clases%20%28ipv4%29/page.html' target='viewer'>Clases (IPV4)</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='direccionamiento%20ip/tecnicas/subnetting%202/ipv4/ipv4/page.html' target='viewer'>IPV4</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='direccionamiento%20ip/tecnicas/subnetting%202/ipv4/protip%20calcular%20rango%20en%20subnetting/page.html' target='viewer'>Protip Calcular rango en subnetting</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='direccionamiento%20ip/tecnicas/subnetting%202/ipv4/redes%20publicas%20y%20privadas/page.html' target='viewer'>Redes Publicas y privadas</a></nobr><br/>
+</div>
+</div>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='direccionamiento%20ip/new%20page/page.html' target='viewer'>New Page</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("22e77ac0-28b4-4be8-bba8-e228fb4afae9", false)'>+</a>&nbsp;</tt>Configuraion de Trastos</nobr><br/>
+<div id='22e77ac0-28b4-4be8-bba8-e228fb4afae9' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='configuraion%20de%20trastos/interfases/page.html' target='viewer'>Interfases</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("b30e3e31-1bcb-4968-9b7b-7a10480210b9", false)'>+</a>&nbsp;</tt>Menus</nobr><br/>
+<div id='b30e3e31-1bcb-4968-9b7b-7a10480210b9' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='configuraion%20de%20trastos/menus/ip%20configuration/page.html' target='viewer'>IP CONFIGURATION</a></nobr><br/>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='configuraion%20de%20trastos/ruteador/page.html' target='viewer'>Ruteador</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("31bdcbb0-da2c-4c05-9a44-ecd5b48e1cf8", true)'>+</a>&nbsp;</tt>router</nobr><br/>
+<div id='31bdcbb0-da2c-4c05-9a44-ecd5b48e1cf8' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='configuraion%20de%20trastos/router/memorias/page.html' target='viewer'>memorias</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='configuraion%20de%20trastos/router/configuracion%20manaual/page.html' target='viewer'>Configuracion Manaual</a></nobr><br/>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='configuraion%20de%20trastos/tipos%20de%20memoria/page.html' target='viewer'>Tipos de memoria</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='configuraion%20de%20trastos/glosario%20de%20comandos%20de%20sisco/page.html' target='viewer'>Glosario de Comandos de Sisco</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("695b8ce8-ccf6-4522-ae73-3327fc5e498e", true)'>+</a>&nbsp;</tt>HUB </nobr><br/>
+<div id='695b8ce8-ccf6-4522-ae73-3327fc5e498e' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='configuraion%20de%20trastos/hub/ejemplo%20configuracion%201/page.html' target='viewer'>Ejemplo Configuracion 1</a></nobr><br/>
+</div>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt>Seguridad</nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("3929da3e-3898-4ab9-9b5b-216a10c13d23", true)'>+</a>&nbsp;</tt>Paswords</nobr><br/>
+<div id='3929da3e-3898-4ab9-9b5b-216a10c13d23' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='paswords/password%20de%20consola/page.html' target='viewer'>Password de consola</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("92b9e6bd-f081-49c9-9f05-aeeef346168d", true)'>+</a>&nbsp;</tt>Ejercicio Packet Tracer</nobr><br/>
+<div id='92b9e6bd-f081-49c9-9f05-aeeef346168d' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='ejercicio%20packet%20tracer/notas/page.html' target='viewer'>Notas</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("e75b05e8-03f5-462d-9516-0c771def2e31", false)'>+</a>&nbsp;</tt><a href='trash' target='viewer'>Trash</a></nobr><br/>
+<div id='e75b05e8-03f5-462d-9516-0c771def2e31' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='trash/dise%C3%B1o%20de%20redes/page.html' target='viewer'>Diseño de redes</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/osi/page.html' target='viewer'>OSI</a></nobr><br/>
+</div>
+</div>
+</body></html>
